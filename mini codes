@@ -1,0 +1,45 @@
+# Displaying dictionary keys in sorted order
+
+ # create dictionary
+def create_dictionary():
+#initialize key values
+    key_value = {}
+    key_value[2] = 45
+    key_value[1] = 2
+    key_value[3] = 34
+    key_value[4] = 27
+    print('this is a dictionary we created',key_value)
+
+
+    # itereate over sorted key and print
+    for key in sorted(key_value.keys()):
+        print(key)
+    print(key_value)
+create_dictionary()
+
+
+########################
+
+# calling dictionary
+
+def dictionary():
+    key_value = {}
+
+    # Initializing the value
+    key_value[2] = 56
+    key_value[1] = 2
+    key_value[5] = 12
+    key_value[4] = 24
+    key_value[6] = 18
+    key_value[3] = 323
+
+
+    print(sorted(key_value.items()))
+
+
+def main():
+    dictionary()
+    # function calling
+
+if __name__ == "__main__":
+    main()
